@@ -58,3 +58,9 @@ namespace TextProcessing
        
     }
 }
++ This version of this program is a lot easier to use and to understand.  
++ The code starts by asking for a full file path and checks if the file exists this helps prevent crashing this is a great improvement as the code no longer confuses the user with its little reasoning for why the crashing happens.  
++ The code is also more organised and uses clear and easy to understand variable names (filePath, wordCounts, and cleanedLine) so it’s easier for a collaborator to follow.  
++ It is also skipping null words and sorts the results alphabetically, which makes the output look a lot cleaner which is a substantial improvement.  
++ There’s still room to make it better however for example it could show the top few most common words or include comments explaining how aspects of the code work such as the use of regular expressions.  
++ This would increase the user friendliness drastically but overall it’s a big step up and much more user/collabration friendly.  
